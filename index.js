@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom';
+var ReactDOM =  require("react-dom");
 var isReadyForNextMouseEvent = false;
 var listMixin = {
     getInitialState: function() {
